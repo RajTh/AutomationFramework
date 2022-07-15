@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 22.204 s <<< FAILURE! - in TestSuite
+Selectorders(com.createorder.Logintoapp)  Time elapsed: 2.021 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at com.createorder.Logintoapp.Selectorders(Logintoapp.java:20)
+
+siginapp(com.createorder.Logintoapp)  Time elapsed: 1.01 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at com.createorder.Logintoapp.siginapp(Logintoapp.java:70)
+
+shipping(com.createorder.Logintoapp)  Time elapsed: 2.013 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at com.createorder.Logintoapp.shipping(Logintoapp.java:87)
+
+payment(com.createorder.Logintoapp)  Time elapsed: 1.007 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null
+	at com.createorder.Logintoapp.payment(Logintoapp.java:102)
+
