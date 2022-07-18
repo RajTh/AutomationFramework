@@ -6,5 +6,5 @@
       <class name="com.smoketest.MultiTest"/>
       <class name="com.smoketest.MultiTest2"/>
     </classes>
-  </test> <!-- Test -->
+  </test> <!-- Test Addd -->
 </suite> <!-- Suite -->
