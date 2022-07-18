@@ -1,0 +1,6 @@
+
+we will store our code inside in to the repo
+
+jennkins ---- Git Repository
+
+Jenkins - Pom.xml-- TestNg.xml- Scripting- Main functionality - Page Object Model 
